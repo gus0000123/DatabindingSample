@@ -1,0 +1,27 @@
+[
+  {
+    "catId": 1,
+    "name": "코랏",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Veda%2Cchat-adulte-m%C3%A2le-race-korat.JPG"
+  },
+  {
+    "catId": 2,
+    "name": "브리티쉬 숏헤어",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/c/c5/British_Shorthair%2C_Classic_Tabby.jpg"
+  },
+  {
+    "catId": 3,
+    "name": "패르시안",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/5b/PersanBlanc.jpg"
+  },
+  {
+    "catId": 4,
+    "name": "스핑크스",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/9/95/Shabbat.jpg"
+  },
+  {
+    "catId": 5,
+    "name": "렉돌",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ragdoll_from_Gatil_Ragbelas.jpg"
+  }
+]

@@ -7,10 +7,10 @@
         <import type="android.view.View"/>
         <variable
                 name="user"
-                type="com.hyun.android.databindingsample.User"/>
+                type="com.hyun.android.databindingsample.model.User"/>
         <variable
                 name="viewModel"
-                type="com.hyun.android.databindingsample.MainViewModel"/>
+                type="com.hyun.android.databindingsample.viewmodel.MainViewModel"/>
     </data>
 
     <LinearLayout
@@ -18,26 +18,38 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:orientation="vertical">
-
-        <ImageView android:layout_width="match_parent"
-                   android:layout_height="wrap_content"
-                   android:onClick="@{()->viewModel.onClickHandler()}"
-                   app:bind_image="@{user.profileURL}"
-                   app:bind_image_error="@{@drawable/error_sample}"/>
-        <TextView
-                android:layout_width="wrap_content"
+        <LinearLayout
+                android:layout_marginTop="32dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@{user.name}"
-                android:layout_gravity="center"
-                android:textSize="30dp"
-                tools:text="이부분에 이름이 표시됩니다."/>
+                android:orientation="vertical">
 
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@{user.address}"
-                android:layout_gravity="center"
-                android:textSize="30dp"
-                tools:text="이부분에 주소가 표시됩니다."/>
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="150dp"
+                       android:onClick="@{()->viewModel.onClickHandler()}"
+                       tools:srcCompat="@drawable/profile_sample"
+                       app:bind_image="@{user.profileURL}"
+                       app:bind_image_error="@{@drawable/error_sample}"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{user.name}"
+                    android:layout_gravity="center"
+                    android:textSize="30dp"
+                    tools:text="이부분에 이름이 표시됩니다."/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{user.address}"
+                    android:layout_gravity="center"
+                    android:textSize="30dp"
+                    tools:text="이부분에 주소가 표시됩니다."/>
+        </LinearLayout>
+
+        <FrameLayout
+                android:id="@+id/fl_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
     </LinearLayout>
 </layout>

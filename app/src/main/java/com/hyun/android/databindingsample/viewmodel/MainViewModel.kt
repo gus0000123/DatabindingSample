@@ -1,4 +1,4 @@
-package com.hyun.android.databindingsample
+package com.hyun.android.databindingsample.viewmodel
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData

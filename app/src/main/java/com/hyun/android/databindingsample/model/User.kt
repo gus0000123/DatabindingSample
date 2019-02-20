@@ -1,4 +1,4 @@
-package com.hyun.android.databindingsample
+package com.hyun.android.databindingsample.model
 
 data class User(
     var name: String = ""

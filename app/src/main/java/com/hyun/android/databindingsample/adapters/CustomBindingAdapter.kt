@@ -1,4 +1,4 @@
-package com.hyun.android.databindingsample
+package com.hyun.android.databindingsample.adapters
 
 import android.graphics.drawable.Drawable
 import android.widget.ImageView
