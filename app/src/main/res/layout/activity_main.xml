@@ -22,29 +22,38 @@
                 android:layout_marginTop="32dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
-            <ImageView android:layout_width="wrap_content"
+            <ImageView android:layout_width="150dp"
                        android:layout_height="150dp"
                        android:onClick="@{()->viewModel.onClickHandler()}"
+                       android:visibility="@{user.profileURL != -1 ? View.VISIBLE : View.GONE}"
                        tools:srcCompat="@drawable/profile_sample"
                        app:bind_image="@{user.profileURL}"
                        app:bind_image_error="@{@drawable/error_sample}"/>
-            <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@{user.name}"
-                    android:layout_gravity="center"
-                    android:textSize="30dp"
-                    tools:text="이부분에 이름이 표시됩니다."/>
 
-            <TextView
-                    android:layout_width="wrap_content"
+            <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@{user.address}"
                     android:layout_gravity="center"
-                    android:textSize="30dp"
-                    tools:text="이부분에 주소가 표시됩니다."/>
+                    android:orientation="vertical">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@{user.name}"
+                        android:layout_gravity="center"
+                        android:textSize="30dp"
+                        tools:text="이름이 표시됩니다."/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@{user.address}"
+                        android:layout_gravity="center"
+                        android:textSize="30dp"
+                        tools:text="주소가 표시됩니다."/>
+            </LinearLayout>
         </LinearLayout>
 
         <FrameLayout

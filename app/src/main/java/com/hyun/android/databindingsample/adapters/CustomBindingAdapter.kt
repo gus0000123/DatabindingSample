@@ -16,6 +16,15 @@ fun bindImage(view: ImageView, res: Int?) {
 
 }
 
+@BindingAdapter("bind_image")
+fun bindImage(view: ImageView, url: String?) {
+    Glide.with(view.context)
+        .load(url)
+        .into(view)
+
+
+}
+
 @BindingAdapter("bind_image", "bind_image_error")
 fun bindImage(view: ImageView, res: Int, error: Drawable) {
     val options = RequestOptions()

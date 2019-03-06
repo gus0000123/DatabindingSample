@@ -23,5 +23,80 @@
     "catId": 5,
     "name": "렉돌",
     "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ragdoll_from_Gatil_Ragbelas.jpg"
+  },
+  {
+    "catId": 6,
+    "name": "코랏",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Veda%2Cchat-adulte-m%C3%A2le-race-korat.JPG"
+  },
+  {
+    "catId": 7,
+    "name": "브리티쉬 숏헤어",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/c/c5/British_Shorthair%2C_Classic_Tabby.jpg"
+  },
+  {
+    "catId": 8,
+    "name": "패르시안",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/5b/PersanBlanc.jpg"
+  },
+  {
+    "catId": 9,
+    "name": "스핑크스",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/9/95/Shabbat.jpg"
+  },
+  {
+    "catId": 10,
+    "name": "렉돌",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ragdoll_from_Gatil_Ragbelas.jpg"
+  },
+  {
+    "catId": 11,
+    "name": "코랏",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Veda%2Cchat-adulte-m%C3%A2le-race-korat.JPG"
+  },
+  {
+    "catId": 12,
+    "name": "브리티쉬 숏헤어",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/c/c5/British_Shorthair%2C_Classic_Tabby.jpg"
+  },
+  {
+    "catId": 13,
+    "name": "패르시안",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/5b/PersanBlanc.jpg"
+  },
+  {
+    "catId": 14,
+    "name": "스핑크스",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/9/95/Shabbat.jpg"
+  },
+  {
+    "catId": 15,
+    "name": "렉돌",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ragdoll_from_Gatil_Ragbelas.jpg"
+  },
+  {
+    "catId": 16,
+    "name": "코랏",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Veda%2Cchat-adulte-m%C3%A2le-race-korat.JPG"
+  },
+  {
+    "catId": 17,
+    "name": "브리티쉬 숏헤어",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/c/c5/British_Shorthair%2C_Classic_Tabby.jpg"
+  },
+  {
+    "catId": 18,
+    "name": "패르시안",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/5b/PersanBlanc.jpg"
+  },
+  {
+    "catId": 19,
+    "name": "스핑크스",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/9/95/Shabbat.jpg"
+  },
+  {
+    "catId": 20,
+    "name": "렉돌",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ragdoll_from_Gatil_Ragbelas.jpg"
   }
 ]
