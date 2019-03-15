@@ -1,6 +1,7 @@
 package com.hyun.android.databindingsample.views
 
 import android.os.Bundle
+import android.os.Environment
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
 //        binding.tvSample.text = "이종현의 개발블로그입니다."//id: tv_sample
         subscribeUi(binding)
         setView(binding)
+
 
     }
 
